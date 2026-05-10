@@ -1,5 +1,5 @@
 {
-  "name": "mikser-core-render-ect",
+  "name": "mikser-io-render-ect",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/almero-digital-marketing/mikser-core-render-ect.git"
+    "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-ect.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/almero-digital-marketing/mikser-core-render-ect/issues"
+    "url": "https://github.com/almero-digital-marketing/mikser-io-render-ect/issues"
   },
-  "homepage": "https://github.com/almero-digital-marketing/mikser-core-render-ect#readme",
+  "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-ect#readme",
+  "peerDependencies": {
+    "mikser-io": "^6.0.0"
+  },
   "dependencies": {
     "ect": "^0.5.9"
   }

@@ -1,6 +1,6 @@
 # mikser-io-render-ect
 
-[ECT](https://github.com/baryshev/ect) renderer for [Mikser](https://github.com/almero-digital-marketing/mikser-io). Renders entities whose layout uses the `.ect` template engine.
+[ECT](https://www.npmjs.com/package/ect) renderer for [Mikser](https://github.com/almero-digital-marketing/mikser-io). Renders entities whose layout uses the `.ect` template engine.
 
 ## Install
 

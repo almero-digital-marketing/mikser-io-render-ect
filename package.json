@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-ect#readme",
   "peerDependencies": {
-    "mikser-io": "^6.0.0"
+    "mikser-io": "^8.0.0"
   },
   "dependencies": {
     "ect": "^0.5.9"

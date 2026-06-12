@@ -14,12 +14,18 @@ npm install mikser-io-render-ect
 
 ```js
 // mikser.config.js
+import { layouts } from 'mikser-io'
+import { renderEct } from 'mikser-io-render-ect'
+
 export default {
-  renderer: 'ect'
+  plugins: [
+    layouts(),
+    renderEct(),
+  ]
 }
 ```
 
-Mikser will pick this plugin up automatically when an entity is rendered with `renderer: 'ect'`. Layouts are resolved from the configured `layoutsFolder` with the `.ect` extension; the entity runtime is passed to the template as its data context.
+Mikser picks this renderer up for any entity whose layout dispatches to `ect` (e.g. `<name>.<format>.ect` layout filenames, or `render: ect` in layout frontmatter). Layouts are resolved from the configured `layoutsFolder` with the `.ect` extension; the entity runtime is passed to the template as its data context.
 
 ## Limitation: YAML frontmatter on layouts
 

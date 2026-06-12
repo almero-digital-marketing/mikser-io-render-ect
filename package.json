@@ -1,11 +1,10 @@
 {
   "name": "mikser-io-render-ect",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-ect.git"
@@ -17,7 +16,7 @@
   },
   "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-ect#readme",
   "peerDependencies": {
-    "mikser-io": "^8.0.0"
+    "mikser-io": "^9.0.0"
   },
   "dependencies": {
     "ect": "^0.5.9"

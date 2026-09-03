@@ -1,6 +1,6 @@
 {
   "name": "mikser-io-render-ect",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "DEPRECATED — use mikser-io-render-eta. ECT renderer for Mikser; kept working, removed in a future major.",
   "main": "index.js",
   "type": "module",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-ect#readme",
   "peerDependencies": {
-    "mikser-io": "^9.0.0"
+    "mikser-io": "^10.0.0"
   },
   "dependencies": {
     "ect": "^0.5.9"

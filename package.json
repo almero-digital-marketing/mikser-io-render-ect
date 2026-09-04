@@ -1,7 +1,7 @@
 {
   "name": "mikser-io-render-ect",
   "version": "4.0.0",
-  "description": "DEPRECATED — use mikser-io-render-eta. ECT renderer for Mikser; kept working, removed in a future major.",
+  "description": "DEPRECATED \u2014 use mikser-io-render-eta. ECT renderer for Mikser; kept working, removed in a future major.",
   "main": "index.js",
   "type": "module",
   "scripts": {},
@@ -20,5 +20,8 @@
   },
   "dependencies": {
     "ect": "^0.5.9"
+  },
+  "devDependencies": {
+    "mikser-io": "^10.0.0"
   }
 }

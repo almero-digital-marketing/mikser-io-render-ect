@@ -55,5 +55,5 @@ export function renderEct(options = {}) {
         onLoad(() => useLogger()?.warn({ code: 'deprecated-plugin', plugin: 'mikser-io-render-ect' },
                                         '%s', DEPRECATION))
     }
-    return { name: options.name ?? 'ect', options, load, render }
+    return { name: options.name ?? 'ect', options, load, render, module: import.meta.url }
 }
